@@ -26,23 +26,23 @@ class Challenges
         dump($counter->count()); // 3
     }
 
-    // public function beanCounter()
-    // {
-    //     echo "\n02)\n";
+    public function beanCounter()
+    {
+        echo "\n02)\n";
 
-    //     $counter = new Counter\Counter();
-    //     $beans = new Counter\BeanCounter($counter);
-    //     $beans->addBean()->addBean();
+        $counter = new Counter\Counter();
+        $beans = new Counter\BeanCounter($counter);
+        $beans->addBean()->addBean();
 
-    //     dump($beans->howMany()); // 2
+        dump($beans->howMany()); // 2
 
-    //     try {
-    //         new Counter\BeanCounter(12);
-    //         dump("Accepted. Oops!"); // if you see this, something's not right
-    //     } catch (\TypeError $e) {
-    //         dump("Not accepted. Good work!"); // if you see this, you've done it right
-    //     }
-    // }
+        try {
+            new Counter\BeanCounter(12);
+            dump("Accepted. Oops!"); // if you see this, something's not right
+        } catch (\TypeError $e) {
+            dump("Not accepted. Good work!"); // if you see this, you've done it right
+        }
+    }
 
     // public function bike()
     // {
