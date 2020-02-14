@@ -4,7 +4,6 @@ namespace App\Counter;
 
 class beanCounter 
 {
-
     private $beans; 
 
   public function __construct(Counter $counter) 
