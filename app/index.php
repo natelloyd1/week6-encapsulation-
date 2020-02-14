@@ -9,3 +9,10 @@ require_once __DIR__ . '/vendor/autoload.php';
 echo "\nQuestion 1:\n";
 
 use App\Hello;
+
+public function start()
+{
+    echo "\nChallenges\n";
+
+    // call challenges here...
+}
