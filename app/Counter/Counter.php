@@ -2,8 +2,8 @@
 
 namespace App\Counter; 
 
-class Counter {
-
+class Counter 
+{
     private $total = 0;  
 
     public function increment() 
